@@ -27,6 +27,6 @@ app.get("/todos", (req, res) => {
   res.json(todos);
 });
 
-app.listen(3000, () => {
+app.listen(3000,"0.0.0.0", () => {
   console.log("Server running on http://localhost:3000");
 });
